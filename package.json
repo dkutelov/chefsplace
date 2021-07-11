@@ -1,0 +1,21 @@
+{
+  "name": "micro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "form-data": "^4.0.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "ssh2-sftp-client": "^6.0.1",
+    "xmlbuilder2": "^2.4.1"
+  }
+}
