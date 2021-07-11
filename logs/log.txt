@@ -1,0 +1,5 @@
+11/07/2021-15:47:00: starting cron task
+11/07/2021-15:47:04: Report data fetched successfully
+11/07/2021-15:47:04: XML file: Chefsplace_inv_20210711.xml created
+11/07/2021-15:47:05: Success: file: Chefsplace_inv_20210711.xml uploaded to sftp server.
+11/07/2021-15:47:05: file: Chefsplace_inv_20210711.xml deleted from the local server.
