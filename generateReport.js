@@ -6,21 +6,22 @@ const createXML = require('./createXML');
 const createXMLFile = require('./createXML/createXMLFile');
 const { fileLog } = require('./utils');
 
-function startCron() {
+function startCron(date) {
   let trialCount = 5;
-  generateReport();
+  generateReport(date);
 
   function restartJob(msg) {
     if (trialCount === 0) return;
 
     setTimeout(() => {
       fileLog(msg);
-      generateReport();
+      generateReport(date);
       trialCount -= 1;
     }, 10000);
   }
+
   // chain promisses to reduce to one error handling
-  function generateReport() {
+  function generateReport(date) {
     let queryData;
     let items;
     getAllItems()
@@ -28,7 +29,7 @@ function startCron() {
         // status
         items = itemsObj;
 
-        getSalesData()
+        getSalesData(date)
           .then((sales) => {
             queryData = sales;
 
@@ -39,7 +40,7 @@ function startCron() {
                 const finalData = addItemsDetails(queryData, items);
                 const xmlContent = createXML(finalData);
 
-                createXMLFile(xmlContent);
+                createXMLFile(xmlContent, date);
               })
               .catch((err) => {
                 console.log(err);

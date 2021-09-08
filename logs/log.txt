@@ -3,3 +3,71 @@
 11/07/2021-15:47:04: XML file: Chefsplace_inv_20210711.xml created
 11/07/2021-15:47:05: Success: file: Chefsplace_inv_20210711.xml uploaded to sftp server.
 11/07/2021-15:47:05: file: Chefsplace_inv_20210711.xml deleted from the local server.
+12/07/2021-10:17:00: starting cron task
+12/07/2021-10:17:02: Report data fetched successfully
+12/07/2021-10:17:02: XML file: Chefsplace_inv_20210712.xml created
+12/07/2021-10:17:03: Success: file: Chefsplace_inv_20210712.xml uploaded to sftp server.
+12/07/2021-10:17:03: file: Chefsplace_inv_20210712.xml deleted from the local server.
+12/07/2021-10:23:00: starting cron task
+12/07/2021-10:23:03: Report data fetched successfully
+12/07/2021-10:23:03: XML file: Chefsplace_inv_20210711.xml created
+13/07/2021-16:48:00: starting cron task
+13/07/2021-16:48:05: Report data fetched successfully
+13/07/2021-16:48:05: XML file: Chefsplace_inv_20210712.xml created
+13/07/2021-16:49:00: starting cron task
+13/07/2021-16:49:04: Report data fetched successfully
+13/07/2021-16:49:04: XML file: Chefsplace_inv_20210712.xml created
+13/07/2021-16:50:00: starting cron task
+18/07/2021-18:31:00: starting cron task
+18/07/2021-18:31:02: Report data fetched successfully
+18/07/2021-18:31:02: XML file: Chefsplace_inv_20210718.xml created
+21/07/2021-11:22:00: starting cron task on Wed Jul 21 2021 11:22:00 GMT+0300 (Eastern European Summer Time)
+21/07/2021-11:22:03: Report data fetched successfully
+21/07/2021-11:22:03: XML file: Chefsplace_inv_20210721.xml created
+22/07/2021-10:33:00: starting cron task on Wed Jul 21 2021 10:33:00 GMT+0300 (Eastern European Summer Time)
+22/07/2021-10:33:04: Report data fetched successfully
+22/07/2021-10:33:04: XML file: Chefsplace_inv_20210721.xml created
+22/07/2021-10:34:00: starting cron task on Wed Jul 21 2021 10:34:00 GMT+0300 (Eastern European Summer Time)
+22/07/2021-10:34:04: Report data fetched successfully
+22/07/2021-10:34:04: XML file: Chefsplace_inv_20210721.xml created
+22/07/2021-10:35:00: starting cron task on Wed Jul 21 2021 10:35:00 GMT+0300 (Eastern European Summer Time)
+22/07/2021-10:35:03: Report data fetched successfully
+22/07/2021-10:35:03: XML file: Chefsplace_inv_20210721.xml created
+08/09/2021-10:44:00: starting cron task on Tue Sep 07 2021 10:44:00 GMT+0300 (Eastern European Summer Time)
+08/09/2021-10:44:03: Report data fetched successfully
+08/09/2021-10:44:03: XML file: Chefsplace_inv_20210907.xml created
+08/09/2021-10:44:04: Success: file: Chefsplace_inv_20210907.xml uploaded to sftp server.
+08/09/2021-11:09:00: starting cron task on Tue Sep 07 2021 11:09:00 GMT+0300 (Eastern European Summer Time)
+08/09/2021-11:09:09: Report data fetched successfully
+08/09/2021-11:09:09: ReferenceError: i is not defined
+08/09/2021-11:09:19: Job restarted due to fetch error
+08/09/2021-11:09:20: Report data fetched successfully
+08/09/2021-11:09:20: ReferenceError: i is not defined
+08/09/2021-11:10:00: starting cron task on Tue Sep 07 2021 11:10:00 GMT+0300 (Eastern European Summer Time)
+08/09/2021-11:10:17: Report data fetched successfully
+08/09/2021-11:10:17: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:10:27: Job restarted due to fetch error
+08/09/2021-11:10:30: Report data fetched successfully
+08/09/2021-11:10:30: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:10:40: Job restarted due to fetch error
+08/09/2021-11:10:44: Report data fetched successfully
+08/09/2021-11:10:44: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:10:54: Job restarted due to fetch error
+08/09/2021-11:10:56: Report data fetched successfully
+08/09/2021-11:10:56: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:11:00: starting cron task on Tue Sep 07 2021 11:11:00 GMT+0300 (Eastern European Summer Time)
+08/09/2021-11:11:05: Report data fetched successfully
+08/09/2021-11:11:05: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:11:06: Job restarted due to fetch error
+08/09/2021-11:11:08: Report data fetched successfully
+08/09/2021-11:11:08: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:14:00: starting cron task on Tue Sep 07 2021 11:14:00 GMT+0300 (Eastern European Summer Time)
+08/09/2021-11:14:04: Report data fetched successfully
+08/09/2021-11:14:04: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:14:14: Job restarted due to fetch error
+08/09/2021-11:14:16: Report data fetched successfully
+08/09/2021-11:14:16: TypeError: Cannot read property 'forEach' of undefined
+08/09/2021-11:14:26: Job restarted due to fetch error
+08/09/2021-11:17:00: starting cron task on Tue Sep 07 2021 11:17:00 GMT+0300 (Eastern European Summer Time)
+08/09/2021-11:17:03: Report data fetched successfully
+08/09/2021-11:17:03: XML file: Chefsplace_inv_20210907.xml created

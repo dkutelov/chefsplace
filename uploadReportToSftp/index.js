@@ -14,20 +14,21 @@ function uploadReportToSftp(fileName) {
   client
     .connect(configObj)
     .then(() => {
-      return client.put(localFile, remoteFile, {
-        flags: 'w',
-        encoding: 'UTF-8',
-        autoClose: true,
-        mode: 0o666,
-      });
-    })
-    .then(() => {
-      console.log('file uploaded');
-      fileLog(`Success: file: ${fileName} uploaded to sftp server.`);
-      client.end();
-      cleanUpReportFiles();
-      fileLog(`file: ${fileName} deleted from the local server.`);
-      console.log('file deleted');
+      client
+        .put(localFile, remoteFile, {
+          flags: 'w',
+          encoding: 'UTF-8',
+          autoClose: true,
+          mode: 0o666,
+        })
+        .then(() => {
+          console.log('file uploaded');
+          fileLog(`Success: file: ${fileName} uploaded to sftp server.`);
+          client.end();
+          cleanUpReportFiles();
+          fileLog(`file: ${fileName} deleted from the local server.`);
+          console.log('file deleted');
+        });
     })
     .catch((err) => {
       fileLog(

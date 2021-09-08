@@ -9,7 +9,7 @@ function getCurrentDateString() {
   let day = today.getDate();
   day = day < 10 ? `0${day}` : day;
   return `${year}-${month}-${day}`;
-  //return '20210629';
+  //return '20210712';
 }
 
 function covertItemsArrToObj(itemsArr) {

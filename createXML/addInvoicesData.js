@@ -2,9 +2,15 @@ const { isException } = require('../utils/exception');
 
 function addInvoicesData(xmlContent, invoices) {
   invoices.forEach((inv) => {
-    
     if (inv.OperType !== '2' || !inv.InvoiceNr) return;
     const isEcommerce = !inv.partner.City.toLowerCase().includes('софия');
+    const itemsWithoutInvalidProducts = inv.items.filter(
+      (item) => !isException(item.code),
+    );
+
+    console.log('itemsWithoutInvalidProducts', itemsWithoutInvalidProducts);
+
+    if (itemsWithoutInvalidProducts.length === 0) return;
 
     const invoice = xmlContent
       .ele('invoice')
@@ -64,9 +70,7 @@ function addInvoicesData(xmlContent, invoices) {
       .up()
       .ele('items');
 
-    inv.items.forEach((i) => {
-      if (isException(i.code)) return;
-      //if (i.code === '806') return;
+    itemsWithoutInvalidProducts.forEach((i) => {
       const item = invoice
         .ele('invoiceitem')
         .ele('ItemId')
